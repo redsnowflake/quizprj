@@ -1,0 +1,66 @@
+// !$*UTF8*$!
+{
+	10C9778914CC31CE00D0085C /* quizprj */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = quizprj;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	10C9779E14CC31EE00D0085C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	10C9779F14CC31EE00D0085C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D6058900D05DD3D006BFB54 /* quizprj */ = {
+		activeExec = 0;
+		executables = (
+			10C9778914CC31CE00D0085C /* quizprj */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 10C9778914CC31CE00D0085C /* quizprj */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* quizprj */;
+		codeSenseManager = 10C9779F14CC31EE00D0085C /* Code sense */;
+		executables = (
+			10C9778914CC31CE00D0085C /* quizprj */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 348926414;
+			PBXWorkspaceStateSaveDate = 348926414;
+		};
+		sourceControlManager = 10C9779E14CC31EE00D0085C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
