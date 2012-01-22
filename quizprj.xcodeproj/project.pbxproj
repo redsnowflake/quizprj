@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103B7FE714CCA7CB00AAAAAA /* quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 103B7FE614CCA7CB00AAAAAA /* quiz.m */; };
+		103B7FEC14CCA9CA00AAAAAA /* quizQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 103B7FEB14CCA9CA00AAAAAA /* quizQuestion.m */; };
+		103B7FEF14CCAAB500AAAAAA /* quizAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 103B7FEE14CCAAB500AAAAAA /* quizAnswer.m */; };
 		1D3623260D0F684500981E51 /* quizprjAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* quizprjAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -18,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103B7FE514CCA7CB00AAAAAA /* quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quiz.h; sourceTree = "<group>"; };
+		103B7FE614CCA7CB00AAAAAA /* quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quiz.m; sourceTree = "<group>"; };
+		103B7FEA14CCA9CA00AAAAAA /* quizQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quizQuestion.h; sourceTree = "<group>"; };
+		103B7FEB14CCA9CA00AAAAAA /* quizQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quizQuestion.m; sourceTree = "<group>"; };
+		103B7FED14CCAAB500AAAAAA /* quizAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quizAnswer.h; sourceTree = "<group>"; };
+		103B7FEE14CCAAB500AAAAAA /* quizAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quizAnswer.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* quizprjAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quizprjAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* quizprjAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = quizprjAppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,12 @@
 				1D3623250D0F684500981E51 /* quizprjAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* quizprjViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* quizprjViewController.m */,
+				103B7FE514CCA7CB00AAAAAA /* quiz.h */,
+				103B7FE614CCA7CB00AAAAAA /* quiz.m */,
+				103B7FEA14CCA9CA00AAAAAA /* quizQuestion.h */,
+				103B7FEB14CCA9CA00AAAAAA /* quizQuestion.m */,
+				103B7FED14CCAAB500AAAAAA /* quizAnswer.h */,
+				103B7FEE14CCAAB500AAAAAA /* quizAnswer.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -134,7 +149,6 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "quizprj" */;
 			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -171,6 +185,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* quizprjAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* quizprjViewController.m in Sources */,
+				103B7FE714CCA7CB00AAAAAA /* quiz.m in Sources */,
+				103B7FEC14CCA9CA00AAAAAA /* quizQuestion.m in Sources */,
+				103B7FEF14CCAAB500AAAAAA /* quizAnswer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
